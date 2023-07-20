@@ -47,7 +47,7 @@ function Login() {
     })
 
     return (
-        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-2 lg:mt-[53px] mt-[15px] mb-[23px]">
+        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-2 lg:mt-[53px] mt-[15px] mb-[23px] px-4">
             <div>
                 <img
                     src={loginImage}

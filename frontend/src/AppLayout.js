@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer';
 if (process.env.NODE_ENV === 'development') {
 	axios.defaults.baseURL = 'http://localhost:4000/api';
 } else {
-axios.defaults.baseURL = 'https://selectit-social.vercel.app/api';
+axios.defaults.baseURL = 'https://social-net-backend.vercel.app/api';
 }
 
 axios.interceptors.request.use((config) => {
@@ -32,7 +32,7 @@ function AppLayout() {
 	}, []);
 
 	return (
-		<div className='overflow-x-hidden'>
+		<div className='overflow-x-hidden container mx-auto px-4 py-4 lg:px-0 sm:px-6 md:px-8 w-full max-w-[1370px]'>
 			<Navbar />
 			<Outlet />
 			<Footer/>

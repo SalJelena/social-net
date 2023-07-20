@@ -73,7 +73,7 @@ function Register() {
 		formik.errors[name];
 
 	return (
-		<div className='grid lg:grid-cols-2 grid-cols-1 gap-2 mt-[53px] mb-[23px]'>
+		<div className='grid lg:grid-cols-2 grid-cols-1 gap-2 mt-[53px] mb-[23px] px-4'>
 			<div className='hidden lg:block'>
 				<img
 					src={regImage}
